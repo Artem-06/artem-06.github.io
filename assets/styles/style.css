@@ -1,0 +1,116 @@
+@media (max-width: 575.98px) {
+	main {
+		margin-top: 11rem;
+	}
+	#youtube {
+		width: 100%;
+		height: 100%;
+	}
+	img {
+		width: 100% !important;
+		height: auto !important;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	main {
+		margin-top: 11rem;
+	}
+	#youtube {
+		width: 100%;
+		height: 100%;
+	}
+	img {
+		width: 100% !important;
+		height: auto !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	main {
+		margin-top: 8rem;
+	}
+	#youtube {
+		width: 622px;
+		height: 350px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	main {
+		margin-top: 13rem;
+	}
+	#youtube {
+		width: 622px;
+		height: 350px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	main {
+		margin-top: 13rem;
+	}
+	#youtube {
+		width: 622px;
+		height: 350px;
+	}
+}
+
+@media (min-width: 1400px) {
+	main {
+		margin-top: 8rem;
+	}
+	#youtube {
+		width: 622px;
+		height: 100%;
+	}
+}
+
+/* General Styles */
+header, footer {
+	background: #000849;
+}
+h2 {
+	color: #040D51 !important;
+}
+p {
+	margin-bottom: 0 !important;
+}
+p.justify {
+	text-align: justify;
+}
+#logo {
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 50%;
+}
+.nav-link {
+	color: #fff !important;
+}
+.btn-primary {
+	background: #040D51 !important;
+	border-color: #040D51 !important;
+}
+.navbar-toggler {
+	border: transparent !important;
+}
+.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+svg {
+	width: 1.5rem;
+	height: 1.5rem;
+	color: #fff;
+}
+
+/* Cards */
+.row .card {
+	background: linear-gradient(180deg, #071055 0%, #8593FF 57%, #8593FF 100%);
+}
+.news .card img {
+	height: 230px;
+}
+.team .card img {
+	height: 270px;
+}
